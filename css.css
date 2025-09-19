@@ -1,0 +1,302 @@
+body i {
+  text-decoration: none !important;
+}
+
+body a {
+  text-decoration: none !important;
+}
+
+.linea-dividir {
+  border: none;
+  border-top: 1px solid rgb(190, 188, 188);
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  margin-left: -50vw;
+  margin-top: 3px;
+
+}
+
+.linea-dividir-corta {
+  border: none;
+  border-top: 2px solid rgb(32, 141, 4);
+  width: 50px;
+  position: relative;
+  margin: 3px auto 10px auto;
+}
+
+/* div barra top */
+
+.div-header-top {
+  margin: 5px 15% 20px 15%;
+}
+
+.top-bar {
+  display: flex;
+  align-items: baseline;
+  font-size: 14px;
+  gap: 15px;
+}
+
+.menu-top {
+  list-style: none;
+  display: flex;
+
+
+}
+
+.menu-top li {
+  margin-right: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.li-menu-top {
+  border-left: 1px solid #000;
+  padding-left: 10px;
+}
+
+.social {
+  display: flex;
+  gap: 10px;
+  margin-left: auto;
+}
+
+.social a i {
+  color: red;
+
+}
+
+.social a:hover i {
+
+  color: rgb(110, 1, 1);
+}
+
+.texto-seguido-ul {
+  margin-left: 5px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* div de la barra logo menu */
+.div-titulo-logo {
+  display: flex;
+  justify-content: space-between;
+  margin: 1px 15% 20px 15%;
+}
+
+.icono-grande {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.icono-grande i {
+  color: darkgreen;
+  font-size: 34px;
+}
+
+.icono-titulo {
+  font-size: 14px;
+  font-weight: bold
+}
+
+.icono-subtitulo {
+  font-size: 12px;
+  color: #666"
+
+}
+
+.texto-logo {
+  text-align: center;
+}
+
+.texto-logo h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  margin: 0;
+}
+
+.menu-iconos {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.menu-iconos span {
+  font-weight: bold;
+}
+
+/* div menu principal */
+.div-menu-principal {
+  display: flex;
+  justify-content: center;
+  margin: 1px 15% 0px 15%;
+  align-items: center;
+}
+
+.div-menu-principal ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* div slide principal */
+
+.div-slide-principal {
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 100%;
+  position: relative;
+}
+
+.slide1 {
+  background-image: url("images/slide1.jpg");
+}
+
+.contenido-slide {
+  position: absolute;
+  left: 20%;
+  top: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contenido-slide .span-titulo {
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.contenido-slide .span-subtitulo {
+  font-size: 14px;
+  color: #666;
+}
+
+.contenido-slide .boton-contenido {
+  width: 130px;
+  position: relative;
+  left: 10%;
+}
+
+/* div iconos resaltados */
+
+.iconos-resaltados {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 15% 40px 15%;
+
+}
+
+.texto-iconos-resaltados {
+  display: flex;
+  flex-direction: column;
+}
+
+.icono-resaltado {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icono-resaltado i {
+  color: darkgreen;
+}
+
+/* titulo seccion categoria */
+.seccion-categoria {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 40px 15% 20px 15%;
+  gap: 20px;
+}
+
+.titulo-seccion-categoria {
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.subtitulo-seccion-categoria {
+  font-size: 15px;
+  color: #666;
+
+}
+
+/* imagenes de productos destacados */
+
+.imagenes-productos-destacados {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 15% 10px 15%;
+  width: 100%;
+  gap: 20px;
+
+}
+
+.cuadro-categoria {
+  width: 140px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.imagen-categoria {
+  width: 100%;
+  height: 150px;
+  border: 1px solid;
+  border-color: #666;
+  overflow: hidden;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+
+}
+
+.span-descripcion {
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  width: 100%;
+}
+
+.cuadro-precio {
+  height: 20px;
+  width: 100%;
+  background-color: darkgreen;
+  text-align: center;
+  margin-top: auto;
+
+}
+
+.cuadro-precio span {
+  color: white;
+}
+
+.imagen-contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.imagen-contenedor img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
